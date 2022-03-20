@@ -34,8 +34,23 @@ pip install package_name
 
 ## Usage
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
+from image_processing.utils import io, plot
+
+from image_processing.processing import combination, transformation
+
+image1 = io.read_image(path file1.jpg)
+
+image2 = io.read_image(path file2.jpg)
+
+plot.plot_image(image1)
+
+plot.plot_image(image2)
+
+result_image = combination.transfer_histogram(image1, image2)
+
+plot.plot_result(image1, image2, result_image)
+
+
 ```
 
 ## License
