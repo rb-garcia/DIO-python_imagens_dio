@@ -1,5 +1,5 @@
 # package_name: image-processing-package
-Descrição 
+ 
 Projeto exemplo: processamento de imagem / Digital Innovation One
 Autor(a): Karina Kato
 
