@@ -1,2 +1,42 @@
-# python_imagens_dio
-Projeto exemplo em Python: criação de pacotes de processamento de imagens
+# package_name: image-processing-package
+Descrição 
+Projeto exemplo: processamento de imagem / Digital Innovation One
+Autor(a): Karina Kato
+
+O pacote "image-processing-package" contém a seguinte estrutura:
+
+	- Módulo Processing:
+		Histogram matching
+		Structural similarity
+		Resize image
+		
+	- Módulo Utils:
+		Read image
+		Save image
+		Plot image
+		Plot result
+		Plot histogram
+
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+python -m pip install --upgrade pip
+
+python -m pip install --user twine
+
+python -m pip install --user setuptools
+
+python setup.py sdist bdist_wheel
+
+```bash
+pip install package_name
+```
+
+## Usage
+```python
+from package_name.module1_name import file1_name
+file1_name.my_function()
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
